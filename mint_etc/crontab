@@ -21,4 +21,3 @@ SHELL=/bin/sh
 47 6	* * 7	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
 52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
 #
-* * * * * root python3 /usr/share/zod/kneelB4zod.py
